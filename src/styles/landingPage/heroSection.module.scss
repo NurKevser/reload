@@ -1,11 +1,13 @@
 .Container {
   color: white;
+  margin-bottom: 3rem;
 
   .Title {
     display: flex;
     align-items: center;
     font-size: 8px;
     font-style: italic;
+    margin-bottom: 0.5rem;
   }
   .MainTitle {
     display: flex;
