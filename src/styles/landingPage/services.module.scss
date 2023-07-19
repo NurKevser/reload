@@ -1,0 +1,75 @@
+.Container {
+  background-color: white;
+  border-radius: 30px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  .Left {
+    .Title {
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 2rem;
+      letter-spacing: -0.1rem;
+    }
+    & img {
+      width: 100%;
+      height: 12rem;
+    }
+  }
+  .Right {
+    .Service {
+      display: flex;
+      margin: 1rem 0;
+      line-height: 1rem;
+
+      .ServiceTitle {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 1rem;
+      }
+      .ServiceContent {
+        color: #606060;
+        font-size: 12px;
+      }
+    }
+    .Line {
+      height: 1px;
+      background-color: #e6e6e6;
+
+      margin: 0 auto;
+      background-image: linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+      background-image: -o-linear-gradient(
+        left,
+        white 2%,
+        #e6e6e6 50%,
+        white 98%
+      );
+      background-image: -moz-linear-gradient(
+        left,
+        white 2%,
+        #e6e6e6 50%,
+        white 98%
+      );
+      background-image: -webkit-linear-gradient(
+        left,
+        white 2%,
+        #e6e6e6 50%,
+        white 98%
+      );
+      background-image: -ms-linear-gradient(
+        left,
+        white 2%,
+        #e6e6e6 50%,
+        white 98%
+      );
+      background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right bottom,
+        color-stop(0.02, white),
+        color-stop(0.5, gray),
+        color-stop(0.98, white)
+      );
+    }
+  }
+}

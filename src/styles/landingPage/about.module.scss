@@ -1,6 +1,7 @@
 .Container {
   color: white;
   margin: 2rem 0;
+  padding: 2.5rem;
 
   .Title {
     display: flex;
@@ -30,7 +31,7 @@
     }
 
     // display: grid;
-    // grid-template-columns: auto auto auto;
+    // grid-template-columns: auto auto;
   }
   .Video {
     width: 100%;

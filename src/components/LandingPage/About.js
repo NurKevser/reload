@@ -6,9 +6,7 @@ import AboutVideo from "../../assets/video.svg";
 const About = () => {
   return (
     <div className={style.Container}>
-      <div className={style.Title}>
-        About Reload <AiOutlineCopyright />
-      </div>
+      <div className={style.Title}>About Reload©</div>
       <div className={style.Content}>
         <div>
           AN INTERNATIONAL DIGITAL DESIGN STUDIO REIMAGINING HOW PEOPLE CONNECT
@@ -33,8 +31,7 @@ const About = () => {
       </div>
       <div className={style.Label}>
         <div>
-          showcase work <span>Reload</span>
-          <AiOutlineCopyright />
+          showcase work <span>Reload©</span>
         </div>
         <div>showcase project 2016-2023</div>
       </div>
