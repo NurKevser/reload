@@ -1,8 +1,22 @@
 import React from "react";
-import style from "../styles/landingPage.module.scss";
+import style from "../styles/landingPage/landingPage.module.scss";
+import Layout from "../components/Common/Layout";
+import HeroSection from "../components/LandingPage/HeroSection";
+import About from "../components/LandingPage/About";
+import Works from "../components/LandingPage/Works";
+import Services from "../components/LandingPage/Services";
 
 const LandingPage = () => {
-  return <div className={style.Container}>LandingPage</div>;
+  return (
+    <Layout>
+      <div className={style.Container}>
+        <HeroSection />
+        <About />
+        <Services />
+        <Works />
+      </div>
+    </Layout>
+  );
 };
 
 export default LandingPage;

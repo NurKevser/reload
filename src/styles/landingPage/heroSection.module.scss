@@ -1,0 +1,33 @@
+.Container {
+  color: white;
+
+  .Title {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    font-style: italic;
+  }
+  .MainTitle {
+    display: flex;
+    flex-direction: column;
+    // text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    // letter-spacing: -0.125rem;
+  }
+  .Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    div {
+      width: 200px;
+      font-size: 10px;
+    }
+    img {
+      width: 20px;
+      height: 10px;
+    }
+  }
+}
