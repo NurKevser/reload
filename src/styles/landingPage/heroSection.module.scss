@@ -74,3 +74,35 @@
     }
   }
 }
+
+@media only screen and (min-width: 1268px) {
+  .Container {
+    padding: 5rem 10rem;
+    .Title {
+      font-size: 16px;
+    }
+    .MainTitle {
+      font-size: 5rem;
+      line-height: 3.5rem;
+
+      .HeroImage1 {
+        width: 280px;
+        height: 65px;
+      }
+      .HeroImage2 {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .Content {
+      div {
+        width: 30%;
+        font-size: 14px;
+      }
+      img {
+        width: 50px;
+        height: 25px;
+      }
+    }
+  }
+}

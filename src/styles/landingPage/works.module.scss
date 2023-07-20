@@ -81,3 +81,32 @@
     }
   }
 }
+@media only screen and (min-width: 1268px) {
+  .Container {
+    padding: 5rem 10rem;
+    justify-content: space-between;
+
+    .Left {
+      & div:first-child {
+        font-size: 3.5rem;
+      }
+      & div:nth-child(2) {
+        font-size: 18px;
+      }
+
+      .Abstract {
+        height: 25rem;
+      }
+    }
+    .Right {
+      .Images {
+        & > div {
+          img {
+            width: 15rem;
+            height: 15rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -127,8 +127,7 @@
       .Content {
         font-size: 52px;
 
-        .Message {
-          margin: 1.5rem 0;
+        .Message1 {
           & > span {
             color: #b1ff42;
           }
@@ -163,6 +162,43 @@
     }
     .SocialMedia {
       margin-bottom: 0;
+    }
+  }
+}
+@media only screen and (min-width: 1268px) {
+  .Container {
+    .FirstSection {
+      .iconsFirst {
+        img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+      .Content {
+        font-size: 68px;
+
+        .Message1 {
+          & > span {
+            color: #b1ff42;
+          }
+        }
+      }
+      .iconsSecond {
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+    .SecondSection {
+      justify-content: space-evenly;
+
+      font-size: 18px;
+      .ContactPart {
+        & div:not(:first-child) {
+          font-size: 14px;
+        }
+      }
     }
   }
 }

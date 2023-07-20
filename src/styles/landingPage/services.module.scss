@@ -64,3 +64,10 @@
     }
   }
 }
+
+@media only screen and (min-width: 1268px) {
+  .Container {
+    padding: 5rem 10rem;
+    justify-content: space-between;
+  }
+}
