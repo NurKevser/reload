@@ -14,11 +14,11 @@ const HeroSection = () => {
         <div>
           {" "}
           WE TRANSFORM{" "}
-          <img src={Hero1} alt="hero section 1" width="100px" height="20px" />
+          <img src={Hero1} alt="hero section 1" className={style.HeroImage1} />
         </div>
         <div>
           IDEAS INTO{" "}
-          <img src={Hero2} alt="hero section 2" width="20px" height="20px" />{" "}
+          <img src={Hero2} alt="hero section 2" className={style.HeroImage2} />{" "}
           THOUGHTS
         </div>
         <div> AND DIGITAL OUTCOMES</div>

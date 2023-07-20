@@ -7,7 +7,7 @@ const Services = () => {
     <div className={style.Container}>
       <div className={style.Left}>
         <div className={style.Title}>Our services from Reload©</div>{" "}
-        <img src={Abstract} alt="abstract image" />
+        <img src={Abstract} alt="abstract" />
       </div>
       <div className={style.Right}>
         <div className={style.Service}>
@@ -24,7 +24,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className={style.Line}>line</div>
+        <div className={style.Line}></div>
         <div className={style.Service}>
           <div className={style.ServiceTitle}>02.</div>
           <div>
@@ -38,7 +38,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className={style.Line}>line</div>
+        <div className={style.Line}></div>
         <div className={style.Service}>
           <div className={style.ServiceTitle}>03.</div>
           <div>

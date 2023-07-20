@@ -1,5 +1,5 @@
 .Container {
-  background-color: white;
+  background-color: #fff;
   border-radius: 30px;
   padding: 2.5rem;
   display: flex;
@@ -34,42 +34,33 @@
     }
     .Line {
       height: 1px;
-      background-color: #e6e6e6;
-
       margin: 0 auto;
-      background-image: linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
-      background-image: -o-linear-gradient(
-        left,
-        white 2%,
-        #e6e6e6 50%,
-        white 98%
+      background: linear-gradient(
+        to right,
+        transparent 0%,
+        /* Fade at the start */ gray 50%,
+        /* Start color */ gray 50%,
+        /* End color */ transparent 100% /* Fade at the end */
       );
-      background-image: -moz-linear-gradient(
-        left,
-        white 2%,
-        #e6e6e6 50%,
-        white 98%
-      );
-      background-image: -webkit-linear-gradient(
-        left,
-        white 2%,
-        #e6e6e6 50%,
-        white 98%
-      );
-      background-image: -ms-linear-gradient(
-        left,
-        white 2%,
-        #e6e6e6 50%,
-        white 98%
-      );
-      background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        right bottom,
-        color-stop(0.02, white),
-        color-stop(0.5, gray),
-        color-stop(0.98, white)
-      );
+    }
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .Container {
+    flex-direction: row;
+    .Left {
+      .Title {
+        font-size: 3rem;
+        line-height: 2.5rem;
+      }
+      & img {
+        margin: 1rem;
+        height: 20rem;
+      }
+    }
+    .Right {
+      width: 50%;
     }
   }
 }

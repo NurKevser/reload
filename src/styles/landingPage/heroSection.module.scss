@@ -1,5 +1,5 @@
 .Container {
-  color: white;
+  color: #fff;
   margin-bottom: 3rem;
   padding: 2.5rem;
 
@@ -18,6 +18,15 @@
     font-weight: 700;
     line-height: 1.5rem;
     // letter-spacing: -0.125rem;
+
+    .HeroImage1 {
+      width: 100px;
+      height: 20px;
+    }
+    .HeroImage2 {
+      width: 20px;
+      height: 20px;
+    }
   }
   .Content {
     display: flex;
@@ -31,6 +40,37 @@
     img {
       width: 20px;
       height: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .Container {
+    .Title {
+      font-size: 14px;
+    }
+    .MainTitle {
+      font-size: 4rem;
+      line-height: 3rem;
+
+      .HeroImage1 {
+        width: 240px;
+        height: 50px;
+      }
+      .HeroImage2 {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .Content {
+      div {
+        width: 30%;
+        font-size: 14px;
+      }
+      img {
+        width: 50px;
+        height: 25px;
+      }
     }
   }
 }

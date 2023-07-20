@@ -1,0 +1,42 @@
+.Menu {
+  --animation-speed: 300ms;
+  width: 30px;
+  height: 10px;
+  cursor: pointer;
+
+  span,
+  span::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+  }
+  span::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+  }
+  span {
+    transform: translateY(5px);
+    transition: var(--animation-speed) background-color;
+    &::after {
+      position: absolute;
+      top: 10px;
+      transition: var(--animation-speed) transform, var(--animation-speed) top;
+    }
+  }
+}
+
+.OpenMenu {
+  span {
+    transform: rotate(-18deg);
+    margin-top: 10px;
+  }
+  span::after {
+    transform: rotate(35deg);
+    top: 0;
+  }
+}

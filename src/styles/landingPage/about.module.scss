@@ -1,11 +1,9 @@
 .Container {
-  color: white;
+  color: #fff;
   margin: 2rem 0;
   padding: 2.5rem;
 
   .Title {
-    display: flex;
-    align-items: center;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 0.3rem;
@@ -22,20 +20,23 @@
     }
     button {
       background-color: transparent;
-      border: 1px solid white;
+      border: 1px solid #fff;
       border-radius: 20px;
-      color: white;
+      color: #fff;
       font-size: 10px;
       padding: 0.6rem 1rem;
       margin-top: 1rem;
+      cursor: pointer;
     }
 
     // display: grid;
     // grid-template-columns: auto auto;
   }
+
   .Video {
     width: 100%;
   }
+
   .Label {
     font-size: 10px;
     display: flex;
@@ -43,6 +44,44 @@
     margin: 1rem 0 2rem 0;
     & div > span {
       font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .Container {
+    .Title {
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 0.5rem;
+    }
+    .Content {
+      display: flex;
+      margin: 2rem 0;
+      & > div:first-child {
+        font-size: 16px;
+      }
+      & > div:nth-child(2) {
+        margin: 0;
+        font-size: 12px;
+      }
+      button {
+        font-size: 12px;
+      }
+    }
+
+    .Video {
+      width: 100%;
+    }
+
+    .Label {
+      font-size: 10px;
+      display: flex;
+      justify-content: space-between;
+      margin: 1rem 0 2rem 0;
+      & div > span {
+        font-weight: 600;
+      }
     }
   }
 }

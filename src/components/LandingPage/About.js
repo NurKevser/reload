@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../../styles/landingPage/about.module.scss";
-import { AiOutlineCopyright } from "react-icons/ai";
 import AboutVideo from "../../assets/video.svg";
+import Play from "../../assets/Play.svg";
 
 const About = () => {
   return (

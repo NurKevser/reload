@@ -1,0 +1,39 @@
+.Container {
+  background: #101010;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+
+  .LeftSide {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .LogoLeft {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+    }
+    .LogoRight {
+      position: relative;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .RightSide {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      color: #fff;
+      font-size: 10px;
+      padding: 0.3rem 1.2rem;
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
+}
