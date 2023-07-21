@@ -19,7 +19,7 @@
     .Content {
       font-size: 24px;
       text-align: center;
-      .Message {
+      .Message1 {
         margin: 1.5rem 0;
         & > span {
           color: #b1ff42;
@@ -127,11 +127,6 @@
       .Content {
         font-size: 52px;
 
-        .Message1 {
-          & > span {
-            color: #b1ff42;
-          }
-        }
         .ButtonContactMe {
           font-size: 11px;
         }
